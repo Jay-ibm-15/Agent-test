@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Copilot_Agent\\Agent-test\\Agent-test.csproj": {}
+    "/home/runner/work/Agent-test/Agent-test/Agent-test.csproj": {}
   },
   "projects": {
-    "C:\\Copilot_Agent\\Agent-test\\Agent-test.csproj": {
+    "/home/runner/work/Agent-test/Agent-test/Agent-test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Copilot_Agent\\Agent-test\\Agent-test.csproj",
+        "projectUniqueName": "/home/runner/work/Agent-test/Agent-test/Agent-test.csproj",
         "projectName": "Agent-test",
-        "projectPath": "C:\\Copilot_Agent\\Agent-test\\Agent-test.csproj",
-        "packagesPath": "C:\\Users\\VELLAISAMYJAYASEELAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Copilot_Agent\\Agent-test\\obj\\",
+        "projectPath": "/home/runner/work/Agent-test/Agent-test/Agent-test.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/Agent-test/Agent-test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\VELLAISAMYJAYASEELAN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
