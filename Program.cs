@@ -1,6 +1,5 @@
-﻿
-using System;
-using Microsoft.Data.SqlClient;
+﻿using System;
+using Agent_test;
 
 class Program
 {
@@ -8,20 +7,13 @@ class Program
 
 	static void Main()
 	{
-		// Retrieve all agents
-		using (SqlConnection conn = new SqlConnection(connectionString))
+		var agentService = new AgentService(connectionString);
+		var agents = agentService.GetAllAgents();
+
+		Console.WriteLine("Agents:");
+		foreach (var agent in agents)
 		{
-			conn.Open();
-			string selectQuery = "SELECT Id, AgentName FROM TblAgent";
-			using (SqlCommand cmd = new SqlCommand(selectQuery, conn))
-			using (SqlDataReader reader = cmd.ExecuteReader())
-			{
-				Console.WriteLine("Agents:");
-				while (reader.Read())
-				{
-					Console.WriteLine($"Id: {reader["Id"]}, Name: {reader["AgentName"]}");
-				}
-			}
+			Console.WriteLine(agent);
 		}
 	}
 }
