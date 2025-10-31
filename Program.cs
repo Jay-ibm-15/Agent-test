@@ -18,7 +18,6 @@ class Program
 
 		string apiUrl = "https://jsonplaceholder.typicode.com/users";
 		var apiResponse = await repo.GetApiResponseAsync(apiUrl);
-		Console.WriteLine("API Response:");
 		Console.WriteLine(apiResponse);
 	}
 }
